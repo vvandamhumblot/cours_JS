@@ -1,5 +1,5 @@
-function factoriel(n) {
-    let resultat = n;
+function factoriel() {
+    var resultat = n;
     for (let i = 1; i <= n; i++) {
         resultat += i;
         console.log(resultat);
@@ -7,13 +7,7 @@ function factoriel(n) {
     return resultat;
 }
 
-let n = parseInt(prompt("veuillez saisir une valeur"));
+var n = parseInt(prompt("veuillez saisir une valeur"));
+let valeur_final = factoriel();
 
-let resultat = n;
-
-for (let i = 1; i <= n; i++) {
-  resultat += i;
-  console.log(resultat);
-}
-
-alert("le résultat est de " + resultat);
+alert("le résultat est de " + valeur_final);
