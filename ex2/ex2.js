@@ -8,3 +8,4 @@ var Mavariabletableau = ["Apple", "banana"];
 var MavariableObjet = window
 
 alert(MavariableString + MavariableNumerique + Mavariabletableau[0] + MavariableObjet.location.pathname);
+
